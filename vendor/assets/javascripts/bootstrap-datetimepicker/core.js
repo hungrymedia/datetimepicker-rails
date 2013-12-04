@@ -53,8 +53,8 @@
       this.pickTime = options.pickTime;
       this.isInput = this.$element.is('input');
       this.component = false;
-      if (this.$element.find('.input-append') || this.$element.find('.input-prepend'))
-          this.component = this.$element.find('.add-on');
+      if (this.$element.find('.input-group'))
+          this.component = this.$element.find('.input-group-addon');
       this.language = options.language
       if (!this.language) {
           if (this.isInput) this.language = this.$element.data('language');
