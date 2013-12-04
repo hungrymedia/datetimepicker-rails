@@ -73,12 +73,12 @@
       }
       if (this.pickTime) {
         if (icon && icon.length) this.timeIcon = icon.data('time-icon');
-        if (!this.timeIcon) this.timeIcon = 'icon-time';
+        if (!this.timeIcon) this.timeIcon = 'glyphicon-time';
         icon.addClass(this.timeIcon);
       }
       if (this.pickDate) {
         if (icon && icon.length) this.dateIcon = icon.data('date-icon');
-        if (!this.dateIcon) this.dateIcon = 'icon-calendar';
+        if (!this.dateIcon) this.dateIcon = 'glyphicon-calendar';
         icon.removeClass(this.timeIcon);
         icon.addClass(this.dateIcon);
       }
